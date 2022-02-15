@@ -15,11 +15,6 @@ public class ConverterTest {
     }
 
     @Test
-    public void whenConvert200RblThen3dot3333Dlr() {
-
-    }
-
-    @Test
     public void whenConvert180RblThen3Dlr() {
         float in = 180;
         float expected = 3;
@@ -27,5 +22,4 @@ public class ConverterTest {
         float eps = 0.0001f;
         Assert.assertEquals(expected, out, eps);
     }
-
 }
