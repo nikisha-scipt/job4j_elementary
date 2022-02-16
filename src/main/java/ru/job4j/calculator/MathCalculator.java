@@ -15,8 +15,8 @@ public class MathCalculator {
     }
 
     public static double sumAllOperation(double first, double second) {
-        return div(first, second)
-                + sub(first, second) + div(first, second)
+        return sum(first, second)
+                + multiply(first, second) + div(first, second)
                 + sub(first, second);
     }
 
