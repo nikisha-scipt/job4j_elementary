@@ -24,6 +24,20 @@ public class MathCalculator {
         System.out.println("Результат расчета равен: " + sumAndMultiply(10, 20));
         System.out.println("Результат расчета равен: " + sumAndDivOnSub(10, 20));
         System.out.println("Результат расчета равен: " + sumAllOperation(10, 20));
+
+        System.out.println(calculate(2, 7));
+    }
+
+    public static int calculate(int a, int n) {
+        int b = a;
+        for (int i = n; i > 1; i--) {
+            a *= b;
+        }
+        /*if (n == 0) {
+            return 1;
+        }
+        return a * calculate(a, n - 1);*/
+        return a;
     }
 
 }
