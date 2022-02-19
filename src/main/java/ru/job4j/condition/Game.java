@@ -29,7 +29,6 @@ public class Game {
     }
 
     public static void main(String[] args) {
-        //Game.menu("tanks");
         Game.maxValue(11, 11, 11);
     }
 
