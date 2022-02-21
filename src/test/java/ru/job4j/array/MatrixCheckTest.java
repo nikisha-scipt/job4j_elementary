@@ -21,7 +21,7 @@ public class MatrixCheckTest {
     public void whenHorizontalIsEmpty() {
         char[][] input = {
                 {' ', ' ', ' '},
-                {' ', ' ', ' '},
+                {'X', ' ', 'X'},
                 {' ', ' ', ' '},
                 };
         int row = 1;
