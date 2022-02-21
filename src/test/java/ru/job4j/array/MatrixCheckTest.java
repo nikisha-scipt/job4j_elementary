@@ -45,7 +45,7 @@ public class MatrixCheckTest {
     public void whenVerticalIsEmpty() {
         char[][] input = {
                 {' ', ' ', ' '},
-                {' ', ' ', ' '},
+                {' ', ' ', 'X'},
                 {' ', ' ', ' '},
                 };
         int column = 2;
