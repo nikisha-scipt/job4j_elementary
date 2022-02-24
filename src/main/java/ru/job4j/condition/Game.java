@@ -15,7 +15,6 @@ public class Game {
     }
 
     public static void maxValue(int x, int y, int z) {
-
         if (x > y && x > z) {
             System.out.println(x);
         } else if (y > z) {
@@ -25,7 +24,6 @@ public class Game {
         } else {
             System.out.println(z);
         }
-
     }
 
     public static void main(String[] args) {

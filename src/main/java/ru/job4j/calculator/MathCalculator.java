@@ -33,10 +33,6 @@ public class MathCalculator {
         for (int i = n; i > 1; i--) {
             a *= b;
         }
-        /*if (n == 0) {
-            return 1;
-        }
-        return a * calculate(a, n - 1);*/
         return a;
     }
 
